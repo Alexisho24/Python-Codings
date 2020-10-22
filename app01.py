@@ -59,8 +59,6 @@ while True:
       encouragement += encouragement_list[i] + ", "
     encouragement += "and " + encouragement_list[-1]
 
-    output = "It seems that you are feeling quite " + feelings + ". Please always remember "+ encouragement + What do you call a fake noodle?
-
-An impasta!"! Hope you feel better :)"
+    output = "It seems that you are feeling quite " + feelings + ". Please always remember "+ encouragement + "What do you call a fake noodle?An impasta!" + "Hope you feel better :)"
 
 
