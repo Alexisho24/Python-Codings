@@ -21,7 +21,7 @@ while True:
       counter += 1
     if each_word == "tired":
       feelings_list.append("tired")
-      encouragement_list.append("that you are stronger than you think")
+      encouragement_list.append("that you are stronger than you think!You can do it!")
       counter += 1
       
     if each_word == "angry":
@@ -32,6 +32,11 @@ while True:
     if each_word == "nervous":
       feelings_list.append("nervous")
       encouragement_list.append("that you have done your best,why not try to think about something happy")
+      counter += 1
+
+    if each_word == "stressed":
+      feelings_list.append("stressed")
+      encouragement_list.append("to take a break every once in a while and everything will be fine.Try your best,but do not push yourself too hard.Sometimes you need to be strong, and other times you just don’t.Do take a break!")
       counter += 1
 
   if counter == 0:
@@ -56,7 +61,4 @@ while True:
 
     output = "It seems that you are feeling quite " + feelings + ". Please always remember "+ encouragement + "! Hope you feel better :)"
 
-  print()
-  print(output)
-  print()
-  # you could add a joke?
+
