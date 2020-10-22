@@ -59,3 +59,4 @@ while True:
   print()
   print(output)
   print()
+  # you could add a joke?
